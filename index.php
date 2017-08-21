@@ -6,8 +6,11 @@ $timeZone = date_default_timezone_set('EST');
 <html>
   <head>
     <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>My Day</title>
+    <link href="https://fonts.googleapis.com/css?family=The+Girl+Next+Door" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <header>
@@ -23,7 +26,7 @@ $timeZone = date_default_timezone_set('EST');
         <p><?php include "inc/quotes.php"; ?></p>
       </section>
       <section>
-        <h3>Today's highlights</h3>
+        <h3>Today's Top To-Do</h3>
         <p></p>
       </section>
     </main>
