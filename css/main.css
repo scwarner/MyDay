@@ -31,6 +31,7 @@ h1 {
 .wrapper {
   width: 85%;
   margin: 0 auto;
+  padding-bottom: 15px;
 }
 
 img {
@@ -39,7 +40,26 @@ img {
   border: 1px solid #333;
 }
 
+#quote p {
+  font-size: 1.15em;
+  line-height: 1.75;
+  margin-top: 5px;
+}
+
+span {
+  font-weight: bold;
+}
+
 h2,
 h3 {
+  margin: 10px 0;
   font-family: 'The Girl Next Door', cursive;
+}
+
+footer {
+  padding: 2% 1%;
+  background-color: rgb(18,203,172);
+  color: rgb(253,248,241);
+  text-align: center;
+
 }
