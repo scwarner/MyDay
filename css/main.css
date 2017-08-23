@@ -4,6 +4,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   background: rgb(253,248,241);
+  box-sizing: border-box;
 }
 
 /************
@@ -28,6 +29,10 @@ h1 {
   margin: 0;
 }
 
+/************
+MAIN STYLES
+************/
+
 .wrapper {
   width: 85%;
   margin: 0 auto;
@@ -36,7 +41,6 @@ h1 {
 
 img {
   width: 100%;
-  margin: 0 auto;
   border: 1px solid #333;
 }
 
@@ -56,10 +60,49 @@ h3 {
   font-family: 'The Girl Next Door', cursive;
 }
 
+/************
+FOOTER STYLES
+************/
+
 footer {
   padding: 2% 1%;
   background-color: rgb(18,203,172);
   color: rgb(253,248,241);
   text-align: center;
+}
+
+/*************
+MEDIA QUERIES
+*************/
+@media (min-width: 750px) {
+  header {
+    padding-bottom: 3%;
+  }
+
+  h1 {
+    font-size: 5em;
+  }
+
+  .date {
+    font-size: 1.25em;
+  }
+
+  .wrapper {
+    width: 75%;
+  }
+}
+
+@media (min-width: 999px) {
+  header {
+    padding-bottom: 2%;
+  }
+
+  .wrapper {
+    width: 65%;
+  }
+
+  footer {
+    padding: 1%;
+  }
 
 }
